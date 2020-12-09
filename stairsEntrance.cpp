@@ -51,6 +51,29 @@ void stairsEntranceDown()
 
 };
 
+void stairsEntranceDownB2a()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ---------- " << '\n';
+	std::cout << "| Front Stairs |" << '\n';
+	std::cout << " ----------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "You take the main staircase down to the first floor. The stairs are wide with an elaborately carved bannister," << '\n';
+	std::cout << "and squeak slightly with every step. The hardwood looks well worn in places." << '\n';
+	std::cout << '\n';
+
+
+	system("pause");
+	roomEntrance();
+
+};
+
+
 void stairsEntranceUpB1()
 {
 
@@ -92,5 +115,27 @@ void stairsEntranceUpB1a()
 
 	system("pause");
 	roomSecondFloorLandingB1();
+
+};
+
+void stairsEntranceUpB2a()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ---------- " << '\n';
+	std::cout << "| Front Stairs |" << '\n';
+	std::cout << " ----------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "You take the main staircase up to the second floor. The stairs are wide with an elaborately carved bannister," << '\n';
+	std::cout << "and squeak slightly with every step. The hardwood looks well worn in places. " << '\n';
+	std::cout << '\n';
+
+
+	system("pause");
+	roomSecondFloorLandingB2a();
 
 };

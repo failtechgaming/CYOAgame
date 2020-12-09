@@ -71,6 +71,29 @@ void stairsAtticUpB1b()
 
 };
 
+void stairsAtticUpB1c()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ---------- " << '\n';
+	std::cout << "| Door to Attic Stairs |" << '\n';
+	std::cout << " ----------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "The door to the attic stairs opens easily since you unlocked it earlier. " << '\n';
+	//std::cout << "click the door opens." << '\n';
+	std::cout << '\n';
+
+
+	system("pause");
+	// room to connect to
+	roomAtticB1e();
+
+};
+
 void stairsAtticDown()
 {
 
@@ -90,5 +113,27 @@ void stairsAtticDown()
 	system("pause");
 	// room to connect to
 	roomGuest();
+
+};
+
+void stairsAtticDownB1a()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ---------- " << '\n';
+	std::cout << "| Attic Stairs |" << '\n';
+	std::cout << " ----------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "You take the cramped stairs down to the second floor, exiting into the guest room." << '\n';
+	std::cout << '\n';
+
+
+	system("pause");
+	// room to connect to
+	roomGuestB2a();
 
 };

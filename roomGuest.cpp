@@ -181,3 +181,44 @@ tryAgain:
 	}
 
 }
+
+void roomGuestB2a()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " --------------- " << '\n';
+	std::cout << "| Guest Bedroom |" << '\n';
+	std::cout << " ---------------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "EXAMPLE TEXT" << '\n';
+tryAgain:
+	std::cout << '\n';
+	std::cout << "To return to the second floor landing, select option 1" << '\n';
+	std::cout << "To take the stairs to the attic, select option 2" << '\n';
+	std::cout << '\n';
+	std::cout << "Please select option 1 or 2" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case '1':
+		roomSecondFloorLandingB2a();
+		break;
+	case '2':
+		stairsAtticUpB1c();
+		break;
+	default:
+		goto tryAgain;
+		break;
+	}
+
+}

@@ -221,3 +221,50 @@ tryAgain:
 		break;
 	}
 }
+
+void roomEntranceB2a()
+{
+
+	ClearScreen();
+	// text for the room/encounter goes here
+
+		//room name
+	std::cout << " ---------- " << '\n';
+	std::cout << "| Entryway |" << '\n';
+	std::cout << " ----------" << '\n';
+
+	std::cout << "EXAMPLE TEXT" << '\n';
+tryAgain:
+	std::cout << '\n';
+	std::cout << "To go into the dining room, select option 1" << '\n';
+	std::cout << "To enter the parlor, select option 2" << '\n';
+	std::cout << "To take the stairs to the second floor, select option 3" << '\n';
+	std::cout << "To leave through the front door, select option 4" << '\n';
+	std::cout << '\n';
+	std::cout << "Please select option 1, 2, 3, or 4" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case '1':
+		roomDining();
+		break;
+	case '2':
+		roomParlor();
+		break;
+	case '3':
+		stairsEntranceUpB2a();
+		break;
+	case '4':
+		//outside dead end
+	default:
+		goto tryAgain;
+		break;
+	}
+
+}

@@ -29,6 +29,30 @@ void stairsBasementDown()
 
 };
 
+void stairsBasementDownB2()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ------------- " << '\n';
+	std::cout << "| Basement Stairs |" << '\n';
+	std::cout << " ------------- " << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "The stairs down to the basement are narrow and dark. You hear them creak under your weight" << '\n';
+	std::cout << "as you take each step. The light from the kitchen barely outlines the door at the bottom." << '\n';
+	std::cout << '\n';
+
+
+	system("pause");
+	roomBasementNorthB2a();
+
+
+};
+
+
 void stairsBasementUp()
 {
 	ClearScreen();

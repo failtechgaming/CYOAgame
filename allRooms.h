@@ -17,3 +17,4 @@
 #include "stairsBasement.h"
 #include "stairsEntrance.h"
 #include "stairsAttic.h"
+#include "gameover.h"

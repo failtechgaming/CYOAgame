@@ -139,3 +139,24 @@ void stairsEntranceUpB2a()
 	roomSecondFloorLandingB2a();
 
 };
+void stairsEntranceDownB2b()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ---------- " << '\n';
+	std::cout << "| Front Stairs |" << '\n';
+	std::cout << " ----------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "You take the main staircase down to the first floor. The stairs are wide with an elaborately carved bannister," << '\n';
+	std::cout << "and squeak slightly with every step. The hardwood looks well worn in places." << '\n';
+	std::cout << '\n';
+
+
+	system("pause");
+	roomEntranceB2a();
+
+};

@@ -1,0 +1,2 @@
+void gameover();
+void gameovercoffin();

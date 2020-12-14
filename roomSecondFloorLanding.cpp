@@ -180,7 +180,7 @@ tryAgain:
 		roomGuestB2a();
 		break;
 	case '3':
-		stairsEntranceDown();
+		stairsEntranceDownB2b();
 	default:
 		goto tryAgain;
 		break;

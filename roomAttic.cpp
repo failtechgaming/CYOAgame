@@ -349,3 +349,49 @@ tryAgain:
 	}
 
 }
+
+void roomAtticB1f()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ------- " << '\n';
+	std::cout << "| Attic |" << '\n';
+	std::cout << " -------" << '\n';
+
+	// POST LOOKING IN SMALL ROOM
+
+	std::cout << "You enter the attic, a bare bulb illuminating the cramped quarters. You can't completely stand up" << '\n';
+	std::cout << "as you hit your head on the pitched roof. Strewn about the floor of the attic is a number of" << '\n';
+	std::cout << "shovels and pick axes, all caked with dirt and mud. A small door is set into the far wall that you just came out of." << '\n';
+tryAgain:
+	std::cout << '\n';
+	std::cout << "To take the stairs down, select option 1" << '\n';
+	std::cout << "To enter the small door, select option 2" << '\n';
+	std::cout << "Please select option 1 or 2" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case '1':
+		stairsAtticDownB2b();
+		break;
+	case '2':
+		std::cout << "You hunch over to fit through the small door." << '\n'; //enter room function here
+		system("pause");
+		ClearScreen();
+		roomAtticB1d();
+		break;
+	default:
+		goto tryAgain;
+		break;
+	}
+
+}
+

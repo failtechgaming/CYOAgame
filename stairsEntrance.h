@@ -6,3 +6,5 @@ void stairsEntranceUpB1a();
 void stairsEntranceDownB2a();
 void stairsEntranceUpB2a();
 void stairsEntranceDownB2b();
+void stairsEntranceDownB2c();
+void stairsEntranceUpB2b();

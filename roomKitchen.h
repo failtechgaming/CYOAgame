@@ -6,3 +6,4 @@ void roomKitchenB1b();
 void roomKitchenB1c();
 void roomKitchenB1d();
 void roomKitchenB2a();
+void roomKitchenB2b();

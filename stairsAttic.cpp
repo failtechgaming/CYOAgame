@@ -137,3 +137,25 @@ void stairsAtticDownB1a()
 	roomGuestB2a();
 
 };
+
+void stairsAtticDownB2b()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ---------- " << '\n';
+	std::cout << "| Attic Stairs |" << '\n';
+	std::cout << " ----------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "You take the cramped stairs down to the second floor, exiting into the guest room." << '\n';
+	std::cout << '\n';
+
+
+	system("pause");
+	// room to connect to
+	roomGuestB2b();
+
+};

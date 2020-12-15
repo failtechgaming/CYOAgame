@@ -9,7 +9,7 @@
 void ClearScreen()
 {
     int n;
-    for (n = 0; n < 10; n++)
+    for (n = 0; n < 3; n++)
         printf("\n\n\n\n\n\n\n\n\n\n");
 }
 

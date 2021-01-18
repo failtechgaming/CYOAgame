@@ -3,7 +3,7 @@
 #include "allRooms.h"
 void ClearScreen();
 
-
+/*
 // RENAME FUNCTION
 void roomKitchen()
 {
@@ -48,7 +48,7 @@ tryAgain:
 	}
 
 }
-
+*/
 void roomKitchenB1()
 {
 
@@ -79,14 +79,14 @@ tryAgain:
 
 	std::cin >> x;
 	std::cin.ignore(32767, '\n');
-
+	
 	switch (x)
 	{
 	case '1':
-		roomDiningB1();
+		//roomDiningB1();
 		break;
 	case '2':
-		stairsBasementDown();
+		//stairsBasementDown();
 		break;
 	case '3':
 		std::cout << "The storm raging outside makes the idea of leaving the house undesirable." << '\n';
@@ -99,14 +99,14 @@ tryAgain:
 		std::cout << "The sink is full of dirty dishes, though the food on the plates looks long since rotten." << '\n';
 		system("pause");
 		ClearScreen();
-		roomKitchenB1d();
+		//roomKitchenB1d();
 	
 		break;
 	case '5':
 		std::cout << "The table is covered in scraps of newspapers, most of which are obituaries from local towns." << '\n';
 		system("pause");
 		ClearScreen();
-		roomKitchenB1b();
+		//roomKitchenB1b();
 		break;
 	default:
 		goto tryAgain;
@@ -115,6 +115,7 @@ tryAgain:
 
 }
 
+/*
 void roomKitchenB1a()
 {
 
@@ -443,3 +444,4 @@ tryAgain:
 
 }
 
+*/

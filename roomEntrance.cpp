@@ -3,7 +3,7 @@
 #include "allRooms.h"
 void ClearScreen();
 
-
+/*
 
 
 void roomEntrance()
@@ -52,7 +52,7 @@ tryAgain:
 	}
 
 }
-
+*/
 void roomEntranceA1()
 {
 
@@ -71,7 +71,7 @@ void roomEntranceA1()
 	std::cout << "you hear a voice faintly call out to come on in. At least, you think you hear a voice. You swear you do." << '\n';
 	std::cout << "Plus, you don't want to stand out in the storm any longer than you need to." << '\n';
 	std::cout << '\n';
-	/*
+	
 tryAgain:
 	std::cout << '\n';
 	std::cout << "To go into the dining room, select option 1" << '\n';
@@ -90,13 +90,13 @@ tryAgain:
 	switch (x)
 	{
 	case '1':
-		roomDining();
+		//roomDining();
 		break;
 	case '2':
-		roomParlor();
+		//roomParlor();
 		break;
 	case '3':
-		stairsEntranceUp();
+		//stairsEntranceUp();
 		break;
 	case '4':
 		//outside dead end
@@ -104,11 +104,11 @@ tryAgain:
 		goto tryAgain;
 		break;
 	}
-	*/
+	
 	system("pause");
-	roomEntrance();
+	//roomEntrance();
 }
-
+/*
 void roomEntranceB1()
 {
 	ClearScreen();
@@ -363,3 +363,4 @@ tryAgain:
 
 }
 
+*/

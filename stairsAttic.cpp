@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "allRooms.h"
 void ClearScreen();
-
+/*
 void stairsAtticUp()
 {
 
@@ -159,3 +159,5 @@ void stairsAtticDownB2b()
 	roomGuestB2b();
 
 };
+
+*/

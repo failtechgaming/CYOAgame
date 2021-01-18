@@ -5,7 +5,7 @@
 
 void ClearScreen();
 
-
+/*
 // RENAME FUNCTION
 void stairsEntranceUp()
 {
@@ -205,3 +205,4 @@ void stairsEntranceDownB2c()
 	roomEntranceB2b();
 
 };
+*/

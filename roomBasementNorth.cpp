@@ -3,7 +3,7 @@
 #include "allRooms.h"
 void ClearScreen();
 
-
+/*
 // RENAME FUNCTION
 void roomBasementNorth()
 {
@@ -149,3 +149,4 @@ tryAgain:
 
 }
 
+*/

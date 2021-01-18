@@ -3,7 +3,7 @@
 #include "allRooms.h"
 
 void ClearScreen();
-
+/*
 
 // RENAME FUNCTION
 void stairsBasementDown()
@@ -70,7 +70,7 @@ void stairsBasementDownB2b()
 
 
 	system("pause");
-	roomBasementNorthB2c();
+	//roomBasementNorthB2c();
 
 
 };
@@ -98,3 +98,4 @@ void stairsBasementUp()
 	system("pause");
 	roomKitchen();
 };
+*/

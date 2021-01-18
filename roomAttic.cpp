@@ -3,7 +3,7 @@
 #include "allRooms.h"
 
 void ClearScreen();
-
+/*
 
 // RENAME FUNCTION
 void roomAttic()
@@ -395,3 +395,4 @@ tryAgain:
 
 }
 
+*/

@@ -3,7 +3,7 @@
 #include "allRooms.h"
 
 void ClearScreen();
-
+/*
 
 // RENAME FUNCTION
 void roomTemplate()
@@ -42,3 +42,4 @@ void roomTemplate()
 	}
 		
 }
+*/

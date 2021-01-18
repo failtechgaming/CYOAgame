@@ -3,7 +3,7 @@
 #include "allRooms.h"
 void ClearScreen();
 
-
+/*
 // RENAME FUNCTION
 void roomDining()
 {
@@ -169,3 +169,5 @@ tryAgain:
 	}
 
 }
+
+*/

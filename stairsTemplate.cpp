@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "allRooms.h"
 void ClearScreen();
-
+/*
 void stairsTemplate()
 {
 
@@ -24,3 +24,4 @@ void stairsTemplate()
 	// ROOMFUNCTION();
 
 };
+*/

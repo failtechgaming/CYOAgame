@@ -1,6 +1,7 @@
-/*
+
 void TakeTwo();
 void gameover();
-void gameovercoffin();
-int gameoverend();
-*/
+void gameoverbasementB1();
+void gameoverentranceB1();
+//void gameovercoffin();
+//int gameoverend();

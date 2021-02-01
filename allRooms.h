@@ -18,3 +18,4 @@
 #include "stairsEntrance.h"
 #include "stairsAttic.h"
 #include "gameover.h"
+void SysPause();

@@ -14,6 +14,11 @@ void ClearScreen()
         printf("\n\n\n\n\n\n\n\n\n\n");
 }
 
+void SysPause()
+{
+    system("pause");
+}
+
 void HowTo()
 {
     ClearScreen();

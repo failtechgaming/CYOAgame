@@ -154,25 +154,38 @@ tryAgain:
 		std::cout << "the key you pick up off the floor was a rounded handle with an image of a bird in a circle," << '\n';
 		std::cout << "worn down from years of use. You pocket this key, making sure your own pocket is not" << '\n';
 		std::cout << "inclinded to turn on you the same way the coat did on its owner." << '\n';
-		//NOTE TO FUTURE SELF, FINISH THIS TEXT AND WRITE NEXT FUNCTION
+		SysPause();
+		std::cout << '\n';
+		std::cout << "Remembering the note about the library on the second floor, you quickly replace all" << '\n';
+		std::cout << "the coats you rummaged through, and ascend the grand stairs that take up the majority" << '\n';
+		std::cout << "of the house entrance. The stairs are elaborate, hand-crafted wood with ornamental" << '\n';
+		std::cout << "bannisters and well-worn steps. The first floor newel post finial is carved in the" << '\n';
+		std::cout << "likeness of a bird, while the second floor finial appears to be a celestial body." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "You arrive at the second floor landing, standing at a T-intersection with the master" << '\n';
+		std::cout << "bedroom to one side and the guest bedroom to the other, with the stem of the T being" << '\n';
+		std::cout << "the stairs behind you." << '\n';
+		SysPause();
+		roomSecondFloorLandingB1();
 		break;
-	case '3':
+	//case '3':
 		//stairsEntranceUpB1();
-		break;
-	case '4':
-		std::cout << "The storm raging outside makes the idea of leaving the house undesirable." << '\n';
-		std::cout << "You think twice about stepping out into the pouring rain and decide against it." << '\n';
-		system("pause");
-		ClearScreen();
-		goto tryAgain;
-		break;
-	case '5':
-		std::cout << "The coat rack has a large number of coats on it, but they all seem decades out of style. In the pocket of one coat," << '\n';
-		std::cout << "you find a rusty set of keys." << '\n';
-		system("pause");
-		ClearScreen();
+		//break;
+	//case '4':
+		//std::cout << "The storm raging outside makes the idea of leaving the house undesirable." << '\n';
+		//std::cout << "You think twice about stepping out into the pouring rain and decide against it." << '\n';
+		//system("pause");
+		//ClearScreen();
+		//goto tryAgain;
+		//break;
+	//case '5':
+		//std::cout << "The coat rack has a large number of coats on it, but they all seem decades out of style. In the pocket of one coat," << '\n';
+		//std::cout << "you find a rusty set of keys." << '\n';
+		//system("pause");
+		//ClearScreen();
 		//roomEntranceB1a();
-		break;
+		//break;
 	default:
 		goto tryAgain;
 		break;

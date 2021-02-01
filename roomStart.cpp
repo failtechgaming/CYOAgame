@@ -45,7 +45,9 @@ tryAgain:
 		roomKitchenB1();
 		break;
 	case '2':
-		roomEntranceA1();
+		NotYet();
+		goto tryAgain;
+		//roomEntranceA1();
 		break;
 	default:
 		goto tryAgain;

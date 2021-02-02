@@ -85,6 +85,7 @@ tryAgain:
 	{
 	case '1':
 		//roomMasterBedroom();
+		std::cout << '\n';
 		std::cout << "Opening the door to the master bedroom reveals a lavish room, furnished with what appears to be the" << '\n';
 		std::cout << "best that money could buy in whatever year the house was built. A four-post bed, an overstuffed chair," << '\n';
 		std::cout << "silk upholstry on everything, and a massive wardrobe limit the space that you can stand in. Everything" << '\n';
@@ -92,12 +93,14 @@ tryAgain:
 		std::cout << "in years. A quick rummage through the wardrobe is a blast through the past, specifically almost 100" << '\n';
 		std::cout << "years of previous fashion. Nothing in this room looks as though it could hold a single book, much less" << '\n';
 		std::cout << "a whole library as the note in the kitchen indicated." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "While this room was certainly interesting to look at and perhaps a little exciting as you probably aren't" << '\n';
 		std::cout << "supposed to be in here, nothing in this room seems like it will help you on your journey." << '\n';
 		std::cout << "A little dejected, you return to the landing, closing the door behind you and remembering" << '\n';
 		std::cout << "the key that you found had an icon of the sun." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "Recognizing the icon above the guest door is the same as the key that you found, you open the door" << '\n';
@@ -106,11 +109,13 @@ tryAgain:
 		std::cout << "that might have originally been the quote unquote library. Instead, books are piled up against the walls" << '\n';
 		std::cout << "and overflowing the shelves themselves, even spilling out onto the bedspead as though someone was hastily" << '\n';
 		std::cout << "looking for a specific one." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "You notice, as you step over books in order to move further into the room, that hidden from view next to" << '\n';
 		std::cout << "the bookshelf is a small utility door that looks like it was intended to blend into the room, perhaps as" << '\n';
 		std::cout << "a door to the attic for house staff." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "Getting a better view of the door, you see it has a lock built into the doorknob. Testing it, you find it is" << '\n';
@@ -123,17 +128,20 @@ tryAgain:
 		break;
 	case '2':
 		//roomGuestB1b();
+		std::cout << '\n';
 		std::cout << "Recognizing the icon above the guest door is the same as the key that you found, you open the door" << '\n';
 		std::cout << "to the guest bedroom. This room is very sparse, containing only a small utilitarian bed, while the" << '\n';
 		std::cout << "the rest of the room is devoted to a massive selection of books that has outgrown the meager shelving" << '\n';
 		std::cout << "that might have originally been the quote unquote library. Instead, books are piled up against the walls" << '\n';
 		std::cout << "and overflowing the shelves themselves, even spilling out onto the bedspead as though someone was hastily" << '\n';
 		std::cout << "looking for a specific one." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "You notice, as you step over books in order to move further into the room, that hidden from view next to" << '\n';
 		std::cout << "the bookshelf is a small utility door that looks like it was intended to blend into the room, perhaps as" << '\n';
 		std::cout << "a door to the attic for house staff." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "Getting a better view of the door, you see it has a lock built into the doorknob. Testing it, you find it is" << '\n';

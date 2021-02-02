@@ -136,6 +136,58 @@ void gameoverbasementB1()
 	}
 }
 
+void gameoverbasementB2()
+{
+	ClearScreen();
+
+	std::cout << "As you open open the door to the basement and descend, you finally come across" << '\n';
+	std::cout << "the source of the noise you thought you heard while you were in the attic. You" << '\n';
+	std::cout << "see a middle aged man hunched over a pit in the dirt floor of the basement. As" << '\n';
+	std::cout << "you place your weight on a loose step, it squeaks under you and catches his" << '\n';
+	std::cout << "attention. Turning to you, his face is a mixture of suprise and anger." << '\n';
+	std::cout << "..." << '\n';
+		SysPause();
+	std::cout << '\n';
+	std::cout << "'Who the hell are you??' he bellows at you before he raises the spade and" << '\n';
+	std::cout << "lunges at you. He covers the distance quickly, and before you know it, the" << '\n';
+	std::cout << "spade connects with your torso and you double over, gasping for breath." << '\n';
+	std::cout << "The pain from the hit dazes your senses, so the last thing you remember is" << '\n';
+	std::cout << "the shadow of a body standing over you." << '\n';
+	std::cout << '\n';
+	std::cout << "This is the end of the adventure for you." << '\n';
+	std::cout << '\n';
+
+
+	std::cout << "GAME OVER" << '\n';
+
+	system("pause");
+
+	std::cout << "Would you like to try again? Y/N" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case 'Y':
+		TakeTwo();
+		break;
+	case 'y':
+		TakeTwo();
+		break;
+	case 'N':
+		gameoverend();
+		break;
+	case 'n':
+		gameoverend();
+		break;
+	}
+}
+
+
 
 void gameoveratticB1()
 {
@@ -147,12 +199,14 @@ void gameoveratticB1()
 	std::cout << "your way back into the kitchen, you find a middle age man with his back to you, washing" << '\n';
 	std::cout << "his hands in the sink. You call out with a cheerful 'Hello!' and he turns to face you," << '\n';
 	std::cout << "a sense of panic on his expression." << '\n';
+	std::cout << "..." << '\n';
 	SysPause();
 	std::cout << '\n';
 	std::cout << "'Who the hell are you?' His features are weathered, as if he's worked a life of hard labor." << '\n';
 	std::cout << "His voice is a mixture of anger and terror, perhaps because he wasn't expecting anyone to" << '\n';
 	std::cout << "be in his house. Having turned to face you, you see his hands and arms are caked in dirt" << '\n';
 	std::cout << "up to his elbows. But the sink has splashes of red mixed in with the brown." << '\n';
+	std::cout << "..." << '\n';
 	SysPause();
 	std::cout << '\n';
 	std::cout << "He doesn't even turn off the sink before he lunges at you. A flash of metal and suddenly" << '\n';

@@ -144,6 +144,7 @@ tryAgain:
 		gameoverentranceB1();
 		break;
 	case '2':
+		std::cout << '\n';
 		std::cout << "Rifling through the coats on the rack, you find old recipts from decades past," << '\n';
 		std::cout << "notes in multiple different styles of handwriting, and even an old breath mint" << '\n';
 		std::cout << "or two. However, as you go to replace one of the coats onto the rack, you hear" << '\n';
@@ -154,6 +155,7 @@ tryAgain:
 		std::cout << "the key you pick up off the floor was a rounded handle with an image of a bird in a circle," << '\n';
 		std::cout << "worn down from years of use. You pocket this key, making sure your own pocket is not" << '\n';
 		std::cout << "inclinded to turn on you the same way the coat did on its owner." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "Remembering the note about the library on the second floor, you quickly replace all" << '\n';
@@ -161,11 +163,13 @@ tryAgain:
 		std::cout << "of the house entrance. The stairs are elaborate, hand-crafted wood with ornamental" << '\n';
 		std::cout << "bannisters and well-worn steps. The first floor newel post finial is carved in the" << '\n';
 		std::cout << "likeness of a bird, while the second floor finial appears to be a celestial body." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "You arrive at the second floor landing, standing at a T-intersection with the master" << '\n';
 		std::cout << "bedroom to one side and the guest bedroom to the other, with the stem of the T being" << '\n';
 		std::cout << "the stairs behind you." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		roomSecondFloorLandingB1();
 		break;

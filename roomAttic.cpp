@@ -80,6 +80,7 @@ tryAgain:
 	switch (x)
 	{
 	case '1':
+		std::cout << '\n';
 		std::cout << "You sit down on the well worn armchair next to the wooden crate. The book, while scrawled in" << '\n';
 		std::cout << "in a heavy hand, is mostly legible, though it's apparent that the author was losing hold of" << '\n';
 		std::cout << "whatever faculties they still had. The page makes reference to a ritual centering around" << '\n';
@@ -87,6 +88,7 @@ tryAgain:
 		std::cout << "can make out, the intent is to raise the body back to life, though the author makes note that" << '\n';
 		std::cout << "some quote unquote 'changes' may have occurred in the personality of the individual who had" << '\n';
 		std::cout << "been clinically dead previously." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "Flipping a few pages forwards and backwards in the book from where you started, you see the" << '\n';
@@ -97,6 +99,7 @@ tryAgain:
 		std::cout << "such things. On one, a few pages before the one the book was open to, you find mention of a freshly" << '\n';
 		std::cout << "dead body stolen from a potter's field nearby, and a note from the second author about preparing" << '\n';
 		std::cout << "a grave in the basement for the ritual to take place in." << '\n';
+		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "Closing the book in front of you, you realize you no longer hear any of the commotion you thought" << '\n';
@@ -105,7 +108,7 @@ tryAgain:
 		std::cout << "the attic, closing doors as you go, until eventually you find yourself back in the kitchen facing the" << '\n';
 		std::cout << "basement stairs." << '\n';
 		//ADD FUNCTION TO RETURN TO KITCHEN/BASEMENT
-		//stairsAtticDown();
+		roomKitchenB2();
 		break;
 	case '2':
 		gameoveratticB1();

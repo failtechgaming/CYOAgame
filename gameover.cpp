@@ -106,6 +106,7 @@ void gameoverbasementB1()
 	std::cout << "This is the end of the adventure for you." << '\n';
 	std::cout << '\n';
 
+	//bad wolf
 
 	std::cout << "GAME OVER" << '\n';
 
@@ -187,6 +188,59 @@ void gameoverbasementB2()
 	}
 }
 
+void gameovercoffinB1()
+{
+	ClearScreen();
+
+	std::cout << "As you move to investigate the coffin, it is almost as though something draws you in" << '\n';
+	std::cout << "and once you reach the side, you find yourself climbing in. You easily fit inside," << '\n';
+	std::cout << "and as you start to pull the lid over yourself, it moves easily, almost like it is" << '\n';
+	std::cout << "being helped somehow. You remark to yourself, in your thoughts, that the inside of the" << '\n';
+	std::cout << "lid has an intricate design for something that no one is ever going to see, but the irony" << '\n';
+	std::cout << "is lost on you as the light is extinguished from the lead sealing shut." << '\n';
+	std::cout << "..." << '\n';
+	SysPause();
+	std::cout << '\n';
+	std::cout << "After what feels like hours in the silent darkness, but what is more likely only minutes," << '\n';
+	std::cout << "you feel a heavy weight against one side of the coffin, and you sense the whole thing going" << '\n';
+	std::cout << "off balance quickly. The pit, which you're sure you just fell into, is not too terribly deep" << '\n';
+	std::cout << "but it doesn't help that you are stuck in a box on its side and were bounced around as it" << '\n';
+	std::cout << "landed. While you may only have a couple of scrapes or bruises, the problem still remainds" << '\n';
+	std::cout << "that you cannot open the lid or otherwise exit this ride. As panic sets in, you realize you" << '\n';
+	std::cout << "will not escape. Your screams and pleas are muffled first by the coffin itself, then the pit," << '\n';
+	std::cout << "the basement, the house, and finally the storm outside. No one hears you." << '\n';
+	std::cout << '\n';
+	std::cout << "This is the end of the adventure for you." << '\n';
+	std::cout << '\n';
+
+	std::cout << "GAME OVER" << '\n';
+
+	system("pause");
+
+	std::cout << "Would you like to try again? Y/N" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case 'Y':
+		TakeTwo();
+		break;
+	case 'y':
+		TakeTwo();
+		break;
+	case 'N':
+		gameoverend();
+		break;
+	case 'n':
+		gameoverend();
+		break;
+	}
+}
 
 
 void gameoveratticB1()

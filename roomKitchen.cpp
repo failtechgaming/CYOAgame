@@ -186,9 +186,42 @@ tryAgain:
 		gameoverbasementB2();
 		break;
 	case '2':
+		std::cout << '\n';
+		std::cout << "As you step over to the sink, you see the mess surrounding the sink has grown immensely. Not" << '\n';
+		std::cout << "only is water splashed all over the counters and floor around the sink, but the stack of dishes" << '\n';
+		std::cout << "that the knife is precariously resting on appear to have been roughed up in the course of using" << '\n';
+		std::cout << "the sink - some dishes have cracks and a few are outright broken, the jagged edges of porcelain" << '\n';
+		std::cout << "and earthenware jutting out at random angles gives the sink the appearance of a sharp-toothed" << '\n';
+		std::cout << "mouth, almost too dangerous to reach your hand into. The blood-tinged water splattered about the" << '\n';
+		std::cout << "area makes the whole thing feel a bit gruesome." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "The knife itself, resting on the pile of shards, glistens as the blade is still damp. The handle is" << '\n';
+		std::cout << "an ornate wood carving, but some of the details are worn down with age or use. From what you can tell" << '\n';
+		std::cout << "the design incorporates images of skulls and bones in an intricate pattern. The wood appears to be a" << '\n';
+		std::cout << "naturally dark grey color as there's no indication of any staining or painting. The blade itself," << '\n';
+		std::cout << "the tang visibly running down the center of the handle, looks almost as if it was hand-made, rough" << '\n';
+		std::cout << "strikes against the metal as it was being forged. The blade is knicked and chipped in places. It" << '\n';
+		std::cout << "doesn't look like it was being taken good care of. With this in mind, you dry it off and pocket it," << '\n';
+		std::cout << "as you will obviously be a better owner than the previous one." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "With the knife in your pocket, you cross the room and open the door to the basement. The immediate darkness" << '\n';
+		std::cout << "is diffused by ambient light at the bottom of the stairs. It appears someone has been in the basement not" << '\n';
+		std::cout << "too unrecently. As you make it to the bottom of the stairs and into the basement proper, you find a number" << '\n';
+		std::cout << "of lit sconces along the walls but no one is present in the room. In the center of the basement, there" << '\n';
+		std::cout << "is a freshly dug pit and a set of shovels and spades leaning up against a sealed coffin. An additional open" << '\n';
+		std::cout << "coffin rests next to the pit, as though it was moments away from being tipped into the makeshift grave." << '\n';
+		std::cout << "On the closed coffin there are a handful of notes that look similar to the ones in the kitchen." << '\n';
+		SysPause();
+
+		roomBasementNorthB1();
+
 		//CODE STUFF ABOUT KNIFE 
 		std::cout << '\n';
-		NotYet();
+		//NotYet();
 
 		//gameoverbasementB1();
 		break;

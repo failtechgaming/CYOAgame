@@ -107,6 +107,7 @@ tryAgain:
 		std::cout << "another book from the stack, open to a random page, in its place. You quietly head down the stairs from" << '\n';
 		std::cout << "the attic, closing doors as you go, until eventually you find yourself back in the kitchen facing the" << '\n';
 		std::cout << "basement stairs." << '\n';
+		SysPause();
 		//ADD FUNCTION TO RETURN TO KITCHEN/BASEMENT
 		roomKitchenB2();
 		break;

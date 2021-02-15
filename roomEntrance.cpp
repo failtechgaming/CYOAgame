@@ -65,21 +65,29 @@ void roomEntranceA1()
 	std::cout << " ----------" << '\n';
 	std::cout << '\n';
 
-	std::cout << "You walk through the storm back to the front of the house, standing on the barren porch. The shutters" << '\n';
+	std::cout << "You walk through the storm to the front of the house, standing on the barren porch. The shutters" << '\n';
 	std::cout << "bang against the boarded up windows, though through a crack you can see lights on inside the house." << '\n';
 	std::cout << "Knocking on the paint-chipped door, your knuckles sting against the hard, wet wood. After a moment" << '\n';
 	std::cout << "you hear a voice faintly call out to come on in. At least, you think you hear a voice. You swear you do." << '\n';
 	std::cout << "Plus, you don't want to stand out in the storm any longer than you need to." << '\n';
+	std::cout << "..." << '\n';
+	SysPause();
 	std::cout << '\n';
+	std::cout << "Opening the door and letting yourself in, you walk into the grand entryway of the house, where you" << '\n';
+	std::cout << "would be able to move to most rooms easily, in addition to the large set of stairs ascending to the" << '\n';
+	std::cout << "second floor. In the entryway, there is only a coatrack heavy with old coats. The light that you saw" << '\n';
+	std::cout << "through the window shutters appears to have come from the room through the door to your right." << '\n';
+	
+
 	
 tryAgain:
 	std::cout << '\n';
-	std::cout << "To go into the dining room, select option 1" << '\n';
-	std::cout << "To enter the parlor, select option 2" << '\n';
-	std::cout << "To take the stairs to the second floor, select option 3" << '\n';
-	std::cout << "To leave through the front door, select option 4" << '\n';
+	std::cout << "To go through the door to your right, select option 1" << '\n';
+	//std::cout << "To enter the parlor, select option 2" << '\n';
+	std::cout << "To take the stairs to the second floor, select option 2" << '\n';
+	//std::cout << "To leave through the front door, select option 4" << '\n';
 	std::cout << '\n';
-	std::cout << "Please select option 1, 2, 3, or 4" << '\n';
+	std::cout << "Please select option 1 or 2" << '\n';
 
 	char x{};
 
@@ -90,10 +98,35 @@ tryAgain:
 	switch (x)
 	{
 	case '1':
-		//roomDining();
+		std::cout << "Opening the door to your left, you reveal an elaborate dining room with a large table set for" << '\n';
+		std::cout << "what looks like a dinner party. Fine dishes and stemware and cutlery all lay adorning the length" << '\n';
+		std::cout << "of the solid wood table, though no food is present. There are flickering candles every so often" << '\n';
+		std::cout << "to enhance the mood, though the light you saw from outside probably came from the overhead" << '\n';
+		std::cout << "chandelier, made of intricate crystal." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "Other than the furniture in this room, there is nothing truely of note other than a door on" << '\n';
+		std::cout << "the other end of the room. Crossing the dining room, however, you're struck that the table is" << '\n';
+		std::cout << "set for a dozen or more guests, though you only hear silence. There is no sound of voices in" << '\n';
+		std::cout << "other rooms, there is no music being played, no laughter, no sounds of food being prepared." << '\n';
+		std::cout << "In fact, though the candles are full sticks and look new, everything else on the table appears" << '\n';
+		std::cout << "to have a fine layer of dust on it, untouched for days at minimum." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "Opening the far door, you step into the kitchen, though the immediate scene is much different" << '\n';
+		std::cout << "than that of the dining room. While you just came from a room prepared for extravagence, you now" << '\n';
+		std::cout << "find yourself in room of chaos. The small kitchen table is littered with notes and scraps of paper," << '\n';
+		std::cout << "as if someone is trying to sort through a box of loose sheets. In the sink there are stacks of dishes," << '\n';
+		std::cout << "many of which look unwashed for weeks on end. While the back door is shut tight, the storm is having" << '\n';
+		std::cout << "a hell of a time slamming the screen door open and closed in the winds. There is one other door in" << '\n';
+		std::cout << "the kitchen, across from where you entered." << '\n';
+		SysPause(); 
+		roomKitchenA1();
 		break;
 	case '2':
-		//roomParlor();
+		gameoverentranceA1();
 		break;
 	case '3':
 		//stairsEntranceUp();

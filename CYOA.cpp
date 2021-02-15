@@ -100,6 +100,9 @@ tryAgain:
     case '3':
         Credits();
         break;
+    case '4':
+        gameoverwinB1();
+        break;
     default:
         goto tryAgain;
     }

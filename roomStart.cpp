@@ -45,8 +45,8 @@ tryAgain:
 		roomKitchenB1();
 		break;
 	case '2':
-		NotYet();
-		goto tryAgain;
+		roomEntranceA1();
+		//goto tryAgain;
 		//roomEntranceA1();
 		break;
 	default:
@@ -57,3 +57,4 @@ tryAgain:
 
 }
 
+ //20210214

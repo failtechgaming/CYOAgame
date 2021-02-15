@@ -93,7 +93,7 @@ tryAgain:
 		std::cout << "instead reference what sounds like a coffin in the basement, but makes no mention" << '\n';
 		std::cout << "of a body or even of a death occuring in the household." << '\n';
 		std::cout << "..." << '\n';
-		system("pause");
+		SysPause();
 		std::cout << '\n';
 		std::cout << "One thing you find mention of repeatedly in the notes is a key. This appears to be" << '\n';
 		std::cout << "a literal key, something that the writer had on their person at some point in time" << '\n';
@@ -102,7 +102,7 @@ tryAgain:
 		std::cout << "unfettered access to all parts of the home. The key, it goes on to say, is labeled" << '\n';
 		std::cout << "with the icon of the house, an image of a bird encompassed in a sun." << '\n';
 		std::cout << "..." << '\n';
-		system("pause");
+		SysPause();
 		std::cout << '\n';
 		std::cout << "With this information in mind, nothing in the kitchen itself appears to be a good" << '\n';
 		std::cout << "hiding place for a key. You tuck one of the notes about the key and the library in" << '\n';
@@ -110,7 +110,7 @@ tryAgain:
 		std::cout << "room contains only an empty table, with room and seats enough to sit a dozen easily." << '\n';
 		std::cout << "There is no other furniture in this room, instead only a door that leads out the other" << '\n';
 		std::cout << "side from where you came in. With nowhere else to look, you head through that door." << '\n';
-		system("pause");
+		SysPause();
 		roomEntranceB1();
 		break;
 	case '2':
@@ -223,6 +223,75 @@ tryAgain:
 		std::cout << '\n';
 		//NotYet();
 
+		//gameoverbasementB1();
+		break;
+		/*case '3':
+			std::cout << "The storm raging outside makes the idea of leaving the house undesirable." << '\n';
+			std::cout << "You think twice about stepping out into the pouring rain and decide against it." << '\n';
+			system("pause");
+			ClearScreen();
+			goto tryAgain;
+			break;
+		case '4':
+			std::cout << "The sink is full of dirty dishes, though the food on the plates looks long since rotten." << '\n';
+			system("pause");
+			ClearScreen();
+			//roomKitchenB1d();
+
+			break;
+		case '5':
+			std::cout << "The table is covered in scraps of newspapers, most of which are obituaries from local towns." << '\n';
+			system("pause");
+			ClearScreen();
+			//roomKitchenB1b();
+			break;*/
+	default:
+		goto tryAgain;
+		break;
+	}
+
+}
+
+void roomKitchenA1()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " --------- " << '\n';
+	std::cout << "| Kitchen |" << '\n';
+	std::cout << " ---------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "The kitchen is a yellow-tinged room with counters on the west wall and a square table. Dishes are" << '\n';
+	std::cout << "piled in the sink, though they do not appear to be used recently. The table is stacked with papers" << '\n';
+	std::cout << "and notes. There is a door to the dining room behind you, and a door on the other side of the room." << '\n';
+tryAgain:
+	std::cout << '\n';
+	std::cout << "To take a look at the notes, select option 1" << '\n';
+	std::cout << "To open the door across the room, select option 2" << '\n';
+	//std::cout << "To exit through the back door, select option 3" << '\n';
+	//std::cout << "To look in the sink, select option 4" << '\n';
+	//std::cout << "To look on the table, select option 5" << '\n';
+	std::cout << '\n';
+	std::cout << "Please select option 1 or 2" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case '1':
+		//gameover function
+		gameoverkitchenA1();
+		break;
+	case '2':
+		NotYet();
+		goto tryAgain;
 		//gameoverbasementB1();
 		break;
 		/*case '3':

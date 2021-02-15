@@ -17,8 +17,12 @@ int gameoverend()
 
 void NotYet()
 {
+	std::cout << '\n';
+	std::cout << "***" << '\n';
 	std::cout << "This choice is not yet coded. Please stay tuned, and try a different" << '\n';
 	std::cout << "option in the meantime! Thanks for playtesting!" << '\n';
+	std::cout << "***" << '\n';
+	//std::cout << '\n';
 
 }
 
@@ -27,9 +31,9 @@ void gameover()
 	ClearScreen();
 
 	std::cout << "GAME OVER" << '\n';
-
+	std::cout << '\n';
 	system("pause");
-
+	std::cout << '\n';
 	std::cout << "Would you like to try again? Y/N" << '\n';
 
 	char x{};
@@ -109,9 +113,9 @@ void gameoverbasementB1()
 	//bad wolf
 
 	std::cout << "GAME OVER" << '\n';
-
+	std::cout << '\n';
 	system("pause");
-
+	std::cout << '\n';
 	std::cout << "Would you like to try again? Y/N" << '\n';
 
 	char x{};
@@ -160,9 +164,9 @@ void gameoverbasementB2()
 
 
 	std::cout << "GAME OVER" << '\n';
-
+	std::cout << '\n';
 	system("pause");
-
+	std::cout << '\n';
 	std::cout << "Would you like to try again? Y/N" << '\n';
 
 	char x{};
@@ -214,9 +218,9 @@ void gameovercoffinB1()
 	std::cout << '\n';
 
 	std::cout << "GAME OVER" << '\n';
-
+	std::cout << '\n';
 	system("pause");
-
+	std::cout << '\n';
 	std::cout << "Would you like to try again? Y/N" << '\n';
 
 	char x{};
@@ -275,9 +279,9 @@ void gameoveratticB1()
 
 
 	std::cout << "GAME OVER" << '\n';
-
+	std::cout << '\n';
 	system("pause");
-
+	std::cout << '\n';
 	std::cout << "Would you like to try again? Y/N" << '\n';
 
 	char x{};
@@ -319,10 +323,177 @@ void gameoverentranceB1()
 
 
 	std::cout << "GAME OVER" << '\n';
+	std::cout << '\n';
+
+	system("pause");
+	std::cout << '\n';
+	std::cout << "Would you like to try again? Y/N" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case 'Y':
+		TakeTwo();
+		break;
+	case 'y':
+		TakeTwo();
+		break;
+	case 'N':
+		gameoverend();
+		break;
+	case 'n':
+		gameoverend();
+		break;
+	}
+}
+
+void gameoverentranceA1()
+{
+	ClearScreen();
+
+	std::cout << "As you head up the imposing staircase to the second floor, the worn boards creak" << '\n';
+	std::cout << "slightly under your feet, and the railing is a smooth polish under your palm. As" << '\n';
+	std::cout << "you step off the stairs into the second floor hallway, you see someone slip through" << '\n';
+	std::cout << "a door on the other end of one of the bedrooms. Following the figure, you make it to" << '\n';
+	std::cout << "the far door as it opens again, the middle age man appearing before you, holding a" << '\n';
+	std::cout << "knife. He greets you, though greeting might be a generous term for the words he sneered" << '\n';
+	std::cout << "at you. 'Welcome to my humble home,' words that have never sounded so sinister." << '\n';
+	std::cout << "..." << '\n';
+	SysPause();
+	std::cout << '\n';
+	std::cout << "He steps to you, forcing you to move back into the room you crossed to get here. The room" << '\n';
+	std::cout << "is littered with books, and you almost trip over one, throwing your arms out for balance" << '\n';
+	std::cout << "and catching yourself on the bed. 'Any old slip can be mighty dangerous, in a storm like" << '\n';
+	std::cout << "this,' the man says, closing distance with you, knife still in hand. He reaches out with" << '\n';
+	std::cout << "his open hand to help you on your feet, but as you make the mistake to accept his generosity," << '\n';
+	std::cout << "you see the other hand move swiftly, the knife burying between your ribs. The last thing you" << '\n';
+	std::cout << "see is the man's toothy smile." << '\n';
+	SysPause();
+	std::cout << '\n';
+	std::cout << "This is the end of the adventure for you." << '\n';
+	std::cout << '\n';
+
+
+	std::cout << "GAME OVER" << '\n';
+	std::cout << '\n';
+
+	system("pause");
+	std::cout << '\n';
+	std::cout << "Would you like to try again? Y/N" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case 'Y':
+		TakeTwo();
+		break;
+	case 'y':
+		TakeTwo();
+		break;
+	case 'N':
+		gameoverend();
+		break;
+	case 'n':
+		gameoverend();
+		break;
+	}
+}
+
+void gameoverkitchenA1()
+{
+	ClearScreen();
+
+	std::cout << "As you sit down to read the notes at the kitchen table, you find yourself mesmorized by what" << '\n';
+	std::cout << "you are reading. The notes talk disjointedly about an attempted summoning of some kind of power," << '\n';
+	std::cout << "a recently dead body excavated from a potter's field, and even about a knife that is supposed" << '\n';
+	std::cout << "to be central to the whole process. As you read further down the stack of papers, it becomes" << '\n';
+	std::cout << "evident that the author was more of a skeptic as he began to write, and more of a convert as" << '\n';
+	std::cout << "time went on, indicated by the notes at the top of the pile." << '\n';
+	std::cout << "..." << '\n';
+	SysPause();
+	std::cout << '\n';
+	std::cout << "Lost in the reading, you fail to notice when the door slowly opens and a figure steps through" << '\n';
+	std::cout << "into the kitchen. It is only when you realize that the lighting has changed as you try and read" << '\n';
+	std::cout << "yet another scrawled page. The prevalent shadow on the page indicates to you that you are not" << '\n';
+	std::cout << "alone. Twisting in your seat, you come face to torso with a middle age man, standing uncomfortably" << '\n';
+	std::cout << "close, and gripping a knife in one hand. The knife looks worn and shoddy, but dangerous all the same." << '\n';
+	std::cout << "..." << '\n';
+	SysPause();
+	std::cout << '\n';
+	std::cout << "Attempting to stand up, the man forcefully puts his hand on your shoulder, keeping you in a sitting" << '\n';
+	std::cout << "position. 'Didn't think we'd get any more guests,' he says, almost as though he's talking to himself." << '\n';
+	std::cout << "He holds you down, and with his other hand, brings the knife over to you. 'Just what do you think" << '\n';
+	std::cout << "you're doing here?' His face doesn't look like it's waiting for an answer. Regardless of the" << '\n';
+	std::cout << "reason you're about to give, his hand, holding the knife tight, plunges into your upper chest and" << '\n';
+	std::cout << "digs deep, mortally wounding you in a single blow. You no longer can stand, the blood pouring from" << '\n';
+	std::cout << "your chest, and as everything goes dark, you simply hear a menacing chuckle." << '\n';
+	SysPause();
+	std::cout << '\n';
+	std::cout << "This is the end of the adventure for you." << '\n';
+	std::cout << '\n';
+	std::cout << "GAME OVER" << '\n';
+	std::cout << '\n';
+	system("pause");
+	std::cout << '\n';
+	std::cout << "Would you like to try again? Y/N" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case 'Y':
+		TakeTwo();
+		break;
+	case 'y':
+		TakeTwo();
+		break;
+	case 'N':
+		gameoverend();
+		break;
+	case 'n':
+		gameoverend();
+		break;
+	}
+}
+
+
+void gameoverwinB1()
+{
+	ClearScreen();
+	std::cout << " --------- " << '\n';
+	std::cout << "| The End |" << '\n';
+	std::cout << " ---------" << '\n';
+	std::cout << '\n';
+	std::cout << '\n';
+	std::cout << "You successfully escaped the house. You are free, but you will always" << '\n';
+	std::cout << "wonder if there is something in that place that you missed. Something" << '\n';
+	std::cout << "that would have made everything make sense. Something tugging in the" << '\n';
+	std::cout << "back of your mind." << '\n';
+	std::cout << '\n';
+	std::cout << '\n';
+
+	std::cout << "GAME OVER" << '\n';
+
+	std::cout << '\n';
+	std::cout << '\n';
 
 	system("pause");
 
-	std::cout << "Would you like to try again? Y/N" << '\n';
+	std::cout << "Would you like to play again? Y/N" << '\n';
 
 	char x{};
 

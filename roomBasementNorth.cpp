@@ -335,3 +335,77 @@ tryAgain:
 	}
 
 }
+
+void roomBasementNorthA1()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ----------- " << '\n';
+	std::cout << "| Basement |" << '\n';
+	std::cout << " -----------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "The unfinished basement before you has a tamped dirt floor, and is adorned only with a simple" << '\n';
+	std::cout << "wooden table and a set of chairs. A small knife juts from the tabletop, and there appears to be" << '\n';
+	std::cout << "nothing else on the table. The back wall of the basment, opposite from which you came, looks as" << '\n';
+	std::cout << "though it is a false wall built with stone and mortar; tools lay in a pile against the wall." << '\n';
+	//std::cout << ".." << '\n';
+tryAgain:
+	std::cout << '\n';
+	std::cout << "To look at the knife on the table, select option 1" << '\n';
+	std::cout << "To look at the pile of tools, select option 2" << '\n';
+	std::cout << '\n';
+	std::cout << "Please select option 1 or 2" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case '1':
+		std::cout << "Walking over to the table, you pull back a seat and sit down, the knife front and center," << '\n';
+		std::cout << "the blade stuck in the tabletop. The knife is so far into the table it was either done by" << '\n';
+		std::cout << "someone very upset or someone unnaturally strong. The knife itself is worn and of poor" << '\n';
+		std::cout << "quality, the handle weathered by use and the blade chipped in places." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "Reaching out and grabbing the handle, it feels hot to the touch, while everything else in" << '\n';
+		std::cout << "the basement has a chill to it. The warmth is not as though someone was holding it, but" << '\n';
+		std::cout << "feels as though it's coming from within the knife itself. It almost sears your hand before" << '\n';
+		std::cout << "you drop it back on the table, clattering off the wood onto the dirt floor." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "You don't feel like you should leave the knife, though. Someone already left it once, and" << '\n';
+		std::cout << "you don't want to leave it around for them to find if they're also looking for you. Crawling" << '\n';
+		std::cout << "under the desk, you find it and quickly pocket it, trying not to hold it for very long, your" << '\n';
+		std::cout << "palm still tender to the burn." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "As you stand back up, your eye catches something on the tabletop - the words ATTIC" << '\n';
+		std::cout << "KEY STUDY are carved haphazardly into the wood. Perhaps even by the knife that you're holding" << '\n';
+		std::cout << "since the blade looked so damanged. With this new piece of information, you hurry out of the" << '\n';
+		std::cout << "basement and back through the main floor, taking a different door from the main entryway where" << '\n';
+		std::cout << "you first stood in the house." << '\n';
+		SysPause();
+		roomStudyA1();
+		//gameovercoffinB1();
+		break;
+	case '2':
+		gameoverbasementA1();
+
+		break;
+	default:
+		goto tryAgain;
+		break;
+	}
+
+}

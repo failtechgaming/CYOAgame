@@ -121,6 +121,60 @@ tryAgain:
 	}
 
 }
+
+void roomAtticA1()
+{
+
+	ClearScreen();
+
+	//room name
+	std::cout << " ------- " << '\n';
+	std::cout << "| Attic |" << '\n';
+	std::cout << " -------" << '\n';
+
+	// text for the room/encounter goes here
+
+	std::cout << "As you climb the final stairs up to the attic, a light switch at the top illuminates a handful of bare bulbs," << '\n';
+	std::cout << "revealing a sparse area that could barely be defined as a room. Within it, you find a small shrine assembled" << '\n';
+	std::cout << "on a desk, with a battered chair nearby. The shrine itself looks hastily made, with humanesque figurines" << '\n';
+	std::cout << "created out of sticks and twine, set around a small wooden, carved box. The figurines are facing the box," << '\n';
+	std::cout << "though you can not otherwise discern any meaning from the setup. Above the figurines and box hang another" << '\n';
+	std::cout << "item created from the same sticks and twine, but it just looks like a jumble of twigs. You cannot determine" << '\n';
+	std::cout << "what it is." << '\n';
+	std::cout << "..." << '\n';
+	SysPause();
+	std::cout << '\n';
+	std::cout << "Next to the desk, there are more notes and papers, similar to the ones that were littering the study, though" << '\n';
+	std::cout << "this time they're assembled in a little more of a tidy fashion. The small stack sits next to a couple boxes" << '\n';
+	std::cout << "of matches, along with what appears to be further fuel for a bonfire - larger sticks and even a little lighter" << '\n';
+	std::cout << "fluid." << '\n';
+tryAgain:
+	std::cout << '\n';
+	std::cout << "To sit at the desk, select option 1" << '\n';
+	std::cout << "To investigate the matches, select option 2" << '\n';
+	std::cout << '\n';
+	std::cout << "Please select option 1 or 2" << '\n';
+
+	char x{};
+
+
+	std::cin >> x;
+	std::cin.ignore(32767, '\n');
+
+	switch (x)
+	{
+	case '1':
+		gameoveratticA1();
+		break;
+	case '2':
+		std::cout << "You chose option 2" << '\n'; //enter room function here
+		break;
+	default:
+		goto tryAgain;
+		break;
+	}
+
+}
 /*
 void roomAtticB1a()
 {

@@ -290,8 +290,32 @@ tryAgain:
 		gameoverkitchenA1();
 		break;
 	case '2':
-		NotYet();
-		goto tryAgain;
+		std::cout << '\n';
+		std::cout << "Stepping over to the door across the room, as you open it you realize it's a set of stairs leading" << '\n';
+		std::cout << "down to the basement. The stairs turn as they disappear into the darkness of the basement. But with" << '\n';
+		std::cout << "a flick of the lightswitch just inside the door, you see the bottom of the stairs come into view." << '\n';
+		std::cout << "The stairs themselves are rough-hewn wood slats with no railing, curving to the left as you" << '\n';
+		std::cout << "descend, with smooth stone walls on either side." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "As you walk down the stairs, turnning to the left upon reaching the bottom, you're presented with" << '\n';
+		std::cout << "an unfinished, stone and dirt basement. There's minimal upgrades done to the space to make it livable," << '\n';
+		std::cout << "and at most you only see a few lights attached to the stone walls, and a small table and chair off to" << '\n';
+		std::cout << "one side, with what looks like a small knife stuck in the top of the wooden table. The back wall seems" << '\n';
+		std::cout << "to be made of fitted stones in a makeshift wall, with a handful of tools piled next to it." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "The basement has a chill in the air different than the rest of the house. You feel a new sense of unease;" << '\n';
+		std::cout << "while you felt as though you were tresspassing through the majority of the house so far, this feels like" << '\n';
+		std::cout << "you've stumbled upon a place you most certainly are not supposed to be in, for possibly more nefarious reasons." << '\n';
+		std::cout << "Even though the basement is largely empty, it still feels as though the room is suffocating you though by" << '\n';
+		std::cout << "some unknown means." << '\n';
+		SysPause();
+		roomBasementNorthA1();
+		//NotYet();
+		//goto tryAgain;
 		//gameoverbasementB1();
 		break;
 		/*case '3':

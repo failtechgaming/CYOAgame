@@ -7,3 +7,4 @@ void roomBasementNorthB2b();
 */
 void roomBasementNorthB1();
 void roomBasementNorthB2();
+void roomBasementNorthA1();

@@ -101,7 +101,7 @@ tryAgain:
         Credits();
         break;
     case '4':
-        gameoverwinB1();
+        roomStudyA1();
         break;
     default:
         goto tryAgain;

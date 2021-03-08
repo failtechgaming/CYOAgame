@@ -98,7 +98,8 @@ tryAgain:
 	switch (x)
 	{
 	case '1':
-		std::cout << "Opening the door to your left, you reveal an elaborate dining room with a large table set for" << '\n';
+		std::cout << '\n';
+		std::cout << "Opening the door to your right, you reveal an elaborate dining room with a large table set for" << '\n';
 		std::cout << "what looks like a dinner party. Fine dishes and stemware and cutlery all lay adorning the length" << '\n';
 		std::cout << "of the solid wood table, though no food is present. There are flickering candles every so often" << '\n';
 		std::cout << "to enhance the mood, though the light you saw from outside probably came from the overhead" << '\n';

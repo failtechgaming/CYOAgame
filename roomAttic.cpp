@@ -136,7 +136,7 @@ void roomAtticA1()
 
 	std::cout << "As you climb the final stairs up to the attic, a light switch at the top illuminates a handful of bare bulbs," << '\n';
 	std::cout << "revealing a sparse area that could barely be defined as a room. Within it, you find a small shrine assembled" << '\n';
-	std::cout << "on a desk, with a battered chair nearby. The shrine itself looks hastily made, with humanesque figurines" << '\n';
+	std::cout << "on a desk, with a battered chair nearby. The shrine itself looks hastily made, with human-esque figurines" << '\n';
 	std::cout << "created out of sticks and twine, set around a small wooden, carved box. The figurines are facing the box," << '\n';
 	std::cout << "though you can not otherwise discern any meaning from the setup. Above the figurines and box hang another" << '\n';
 	std::cout << "item created from the same sticks and twine, but it just looks like a jumble of twigs. You cannot determine" << '\n';
@@ -167,7 +167,44 @@ tryAgain:
 		gameoveratticA1();
 		break;
 	case '2':
-		std::cout << "You chose option 2" << '\n'; //enter room function here
+		std::cout << "Leaning down to look at the boxes of matches, you find they are largely still full capacity, with only one" << '\n'; //enter room function here
+		std::cout << "box having been opened, the other remaining sealed. The papers nearby look just as frantically written as" << '\n';
+		std::cout << "the ones you saw below, but do not give any indication as to the meaning of this small shrine you've stumbled" << '\n';
+		std::cout << "upon. Tapping on the side of the lighter fluid can, you hear the liquid inside is still half or more full," << '\n';
+		std::cout << "though the odor of the fluid makes you think it was recently used." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "As you contemplate the items in front of you, you remember the scribbled notes from the study, where the" << '\n';
+		std::cout << "author repeatedly wrote about fire, though the context was vague. But a pile of fuel and a can of lighter" << '\n';
+		std::cout << "fluid couldn't be much more context if it tried. Picking up the can, you pop the cap off and start to spray" << '\n';
+		std::cout << "it on the shrine. The odor of the fluid intensifies and before you know it, the whole desk and surrounding" << '\n';
+		std::cout << "area are doused in lighter fluid. You swear you don't know how that happened. But now it's only a matter" << '\n';
+		std::cout << "of lighting a match to finish it off." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "You pick up a box of matches, slowly removing one and holding it in your fingertips. The bright red match-" << '\n';
+		std::cout << "head glides quickly across the unused strike-strip on the side of the box, and before you know it, you've" << '\n';
+		std::cout << "conjured flame. You stare into the tiny blaze for a moment, watching it dance and consume the stick of the" << '\n';
+		std::cout << "match before you start to feel its heat on your fingers, causing you to flick it, almost nonchalantly onto" << '\n';
+		std::cout << "the desk. Seemingly before the match makes contact with the wood, the whole thing erupts, the lighter fluid" << '\n';
+		std::cout << "going up without delay. You gaze at the scene only for a moment before the realization sets in, and you" << '\n';
+		std::cout << "turn around and bolt down the stairs." << '\n';
+		std::cout << "..." << '\n';
+		SysPause();
+		std::cout << '\n';
+		std::cout << "Running back down through the house, you retrace your steps until you've burst your way through the back door," << '\n';
+		std::cout << "exiting the house the same way you entered. You notice, though, upon breathing fresh air, that the storm seems" << '\n';
+		std::cout << "to have abated during your time inside. The rain has stop, the thunder quieted, and the clouds are now parting" << '\n';
+		std::cout << "giving you a front and center view of the house, its flames moving down from the attic to other rooms, the fire" << '\n';
+		std::cout << "poking out from various second-story windows. Standing in the cool breeze, you are now free from the storm and" << '\n';
+		std::cout << "whatever secrets the house held. You easily find your trail again, hiking back to your campsite easily. You" << '\n';
+		std::cout << "take little time in packing everything back into your car, and getting the hell out of here. You want to leave" << '\n';
+		std::cout << "this place behind you, forever." << '\n';
+		SysPause();
+		gameoverwinB1();
+		//FINISH THIS SCENE
 		break;
 	default:
 		goto tryAgain;

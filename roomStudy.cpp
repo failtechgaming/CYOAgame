@@ -90,7 +90,7 @@ tryAgain:
 		std::cout << '\n';
 		std::cout << "Taking the key, you see it is unmarked, though it looks well worn, as if it has been used frequently," << '\n';
 		std::cout << "perhaps daily. You pocket it, though placing it away from the knife, as you can still feel its warmth" << '\n';
-		std::cout << "through your coat fabric. Taking a quick glance over the rest of the the desk, you can't quite make" << '\n';
+		std::cout << "through your coat fabric. Taking a quick glance over the rest of the desk, you can't quite make" << '\n';
 		std::cout << "make out most of the handwriting, but you feel like you see the word BOOK scrawled out repeatedly." << '\n';
 		std::cout << "The only other word comparable in its usage and script size is FIRE, though the contexts in which" << '\n';
 		std::cout << "you are seeing that word written are unclear. The thrill of the pyromania in the author must have" << '\n';
@@ -99,7 +99,7 @@ tryAgain:
 		SysPause();
 		std::cout << '\n';
 		std::cout << "Taking the key with you as you leave, you head back out of the study, and up the stairs this time." << '\n';
-		std::cout << "You may not know the layout of the house specifcally, but you know an attic is always up the stairs" << '\n';
+		std::cout << "You may not know the layout of the house specifically, but you know an attic is always up the stairs" << '\n';
 		std::cout << "whenever possible. Making it to the second floor, you quickly canvas the available rooms and find" << '\n';
 		std::cout << "a locked door in what appears to be an unused bedroom, books stacked everywhere. The door has a" << '\n';
 		std::cout << "small lock in it, which your pilfered key fits in perfectly. It opens to another set of upwards" << '\n';

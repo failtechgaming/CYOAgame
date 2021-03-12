@@ -88,7 +88,7 @@ tryAgain:
 		std::cout << '\n';
 		std::cout << "Opening the door to the master bedroom reveals a lavish room, furnished with what appears to be the" << '\n';
 		std::cout << "best that money could buy in whatever year the house was built. A four-post bed, an overstuffed chair," << '\n';
-		std::cout << "silk upholstry on everything, and a massive wardrobe limit the space that you can stand in. Everything" << '\n';
+		std::cout << "silk upholstery on everything, and a massive wardrobe limit the space that you can stand in. Everything" << '\n';
 		std::cout << "has a thin layer of dust, as though no one has pulled back the bedding in order to use this room" << '\n';
 		std::cout << "in years. A quick rummage through the wardrobe is a blast through the past, specifically almost 100" << '\n';
 		std::cout << "years of previous fashion. Nothing in this room looks as though it could hold a single book, much less" << '\n';
@@ -107,7 +107,7 @@ tryAgain:
 		std::cout << "to the guest bedroom. This room is very sparse, containing only a small utilitarian bed, while the" << '\n';
 		std::cout << "the rest of the room is devoted to a massive selection of books that has outgrown the meager shelving" << '\n';
 		std::cout << "that might have originally been the quote unquote library. Instead, books are piled up against the walls" << '\n';
-		std::cout << "and overflowing the shelves themselves, even spilling out onto the bedspead as though someone was hastily" << '\n';
+		std::cout << "and overflowing the shelves themselves, even spilling out onto the bed-spead as though someone was hastily" << '\n';
 		std::cout << "looking for a specific one." << '\n';
 		std::cout << "..." << '\n';
 		SysPause();
@@ -121,7 +121,7 @@ tryAgain:
 		std::cout << "Getting a better view of the door, you see it has a lock built into the doorknob. Testing it, you find it is" << '\n';
 		std::cout << "locked and the door is tight in the frame. There is no give at all, as you lean into it. The key you picked up" << '\n';
 		std::cout << "earlier, however, is a perfect fit for the lock. With a quiet click, you're able to turn the knob and swing the" << '\n';
-		std::cout << "door out into the room, revealing a set up ascending stairs. A lightswitch inside the doorway turns on a small, bare" << '\n';
+		std::cout << "door out into the room, revealing a set up ascending stairs. A light switch inside the doorway turns on a small, bare" << '\n';
 		std::cout << "bulb at the top of the steps. You decide you've already come this far, you might as well explore the attic too." << '\n';
 		SysPause();
 		roomAtticB1();
@@ -133,7 +133,7 @@ tryAgain:
 		std::cout << "to the guest bedroom. This room is very sparse, containing only a small utilitarian bed, while the" << '\n';
 		std::cout << "the rest of the room is devoted to a massive selection of books that has outgrown the meager shelving" << '\n';
 		std::cout << "that might have originally been the quote unquote library. Instead, books are piled up against the walls" << '\n';
-		std::cout << "and overflowing the shelves themselves, even spilling out onto the bedspead as though someone was hastily" << '\n';
+		std::cout << "and overflowing the shelves themselves, even spilling out onto the bedspread as though someone was hastily" << '\n';
 		std::cout << "looking for a specific one." << '\n';
 		std::cout << "..." << '\n';
 		SysPause();
@@ -147,7 +147,7 @@ tryAgain:
 		std::cout << "Getting a better view of the door, you see it has a lock built into the doorknob. Testing it, you find it is" << '\n';
 		std::cout << "locked and the door is tight in the frame. There is no give at all, as you lean into it. The key you picked up" << '\n';
 		std::cout << "earlier, however, is a perfect fit for the lock. With a quiet click, you're able to turn the knob and swing the" << '\n';
-		std::cout << "door out into the room, revealing a set up ascending stairs. A lightswitch inside the doorway turns on a small, bare" << '\n';
+		std::cout << "door out into the room, revealing a set up ascending stairs. A light switch inside the doorway turns on a small, bare" << '\n';
 		std::cout << "bulb at the top of the steps. You decide you've already come this far, you might as well explore the attic too." << '\n';
 		SysPause();
 		roomAtticB1();

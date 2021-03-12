@@ -205,7 +205,6 @@ tryAgain:
 		std::cout << "to stop the storm and finally escape this place." << '\n';
 		SysPause();
 		roomBasementNorthB2();
-
 		break;
 	default:
 		goto tryAgain;
@@ -265,7 +264,7 @@ tryAgain:
 		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
-		std::cout << "Eyeing the shoves and spades, you make quick work of the pit with the displaced dirt" << '\n';
+		std::cout << "Eying the shoves and spades, you make quick work of the pit with the displaced dirt" << '\n';
 		std::cout << "and cover the coffin and fill the hole. As you tamp down the last batch of dirt, you" << '\n';
 		std::cout << "realize that the sound of the storm against the house above you seems to have dissipated" << '\n';
 		std::cout << "and you stand there, shovel in hand, in silence." << '\n';
@@ -350,7 +349,7 @@ void roomBasementNorthA1()
 
 	std::cout << "The unfinished basement before you has a tamped dirt floor, and is adorned only with a simple" << '\n';
 	std::cout << "wooden table and a set of chairs. A small knife juts from the tabletop, and there appears to be" << '\n';
-	std::cout << "nothing else on the table. The back wall of the basment, opposite from which you came, looks as" << '\n';
+	std::cout << "nothing else on the table. The back wall of the basement, opposite from which you came, looks as" << '\n';
 	std::cout << "though it is a false wall built with stone and mortar; tools lay in a pile against the wall." << '\n';
 	//std::cout << ".." << '\n';
 tryAgain:
@@ -392,7 +391,7 @@ tryAgain:
 		std::cout << '\n';
 		std::cout << "As you stand back up, your eye catches something on the tabletop - the words ATTIC" << '\n';
 		std::cout << "KEY STUDY are carved haphazardly into the wood. Perhaps even by the knife that you're holding" << '\n';
-		std::cout << "since the blade looked so damanged. With this new piece of information, you hurry out of the" << '\n';
+		std::cout << "since the blade looked so damaged. With this new piece of information, you hurry out of the" << '\n';
 		std::cout << "basement and back through the main floor, taking a different door from the main entryway where" << '\n';
 		std::cout << "you first stood in the house." << '\n';
 		SysPause();
@@ -401,7 +400,6 @@ tryAgain:
 		break;
 	case '2':
 		gameoverbasementA1();
-
 		break;
 	default:
 		goto tryAgain;

@@ -48,6 +48,7 @@ void Credits()
     std::cout << "this stuff is worth it, you can buy me a beer in return.\n";
     std::cout << '\n';
     std::cout << "Special thanks to R.A. Montgomery and ChooseCO. All rights reserved." << '\n';
+    std::cout << "Special thanks to Blake." << '\n';
     std::cout << "Special-special thanks to all my stream viewers and helpers." << '\n';
 
     system("pause");
@@ -101,7 +102,8 @@ tryAgain:
         Credits();
         break;
     case '4':
-        roomStudyA1();
+        goto tryAgain;
+       // roomStudyA1();
         break;
     default:
         goto tryAgain;

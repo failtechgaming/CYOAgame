@@ -20,7 +20,7 @@ void NotYet()
 	std::cout << '\n';
 	std::cout << "***" << '\n';
 	std::cout << "This choice is not yet coded. Please stay tuned, and try a different" << '\n';
-	std::cout << "option in the meantime! Thanks for playtesting!" << '\n';
+	std::cout << "option in the meantime! Thanks for play-testing!" << '\n';
 	std::cout << "***" << '\n';
 	//std::cout << '\n';
 
@@ -100,12 +100,12 @@ void gameoverbasementB1()
 {
 	ClearScreen();
 
-	std::cout << "As you open the door to the basement and decend down the stairs, the door" << '\n';
+	std::cout << "As you open the door to the basement and descend down the stairs, the door" << '\n';
 	std::cout << "shuts behind you and the stairs are swallowed by the darkness. This causes you" << '\n';
 	std::cout << "to lose your footing and tumble painfully down the rest of the stairs, eventually" << '\n';
 	std::cout << "coming to a halt on a cold, damp, dirt floor. Something in your leg feels broken," << '\n';
 	std::cout << "but as much as you try to call for help, no one comes. You don't know how much time" << '\n';
-	std::cout << "passes before you lose consiousness." << '\n';
+	std::cout << "passes before you lose consciousness." << '\n';
 	std::cout << '\n';
 	std::cout << "This is the end of the adventure for you." << '\n';
 	std::cout << '\n';
@@ -145,11 +145,11 @@ void gameoverbasementB2()
 {
 	ClearScreen();
 
-	std::cout << "As you open open the door to the basement and descend, you finally come across" << '\n';
+	std::cout << "As you open the door to the basement and descend, you finally come across" << '\n';
 	std::cout << "the source of the noise you thought you heard while you were in the attic. You" << '\n';
 	std::cout << "see a middle aged man hunched over a pit in the dirt floor of the basement. As" << '\n';
 	std::cout << "you place your weight on a loose step, it squeaks under you and catches his" << '\n';
-	std::cout << "attention. Turning to you, his face is a mixture of suprise and anger." << '\n';
+	std::cout << "attention. Turning to you, his face is a mixture of surprise and anger." << '\n';
 	std::cout << "..." << '\n';
 		SysPause();
 	std::cout << '\n';
@@ -209,7 +209,7 @@ void gameovercoffinB1()
 	std::cout << "you feel a heavy weight against one side of the coffin, and you sense the whole thing going" << '\n';
 	std::cout << "off balance quickly. The pit, which you're sure you just fell into, is not too terribly deep" << '\n';
 	std::cout << "but it doesn't help that you are stuck in a box on its side and were bounced around as it" << '\n';
-	std::cout << "landed. While you may only have a couple of scrapes or bruises, the problem still remainds" << '\n';
+	std::cout << "landed. While you may only have a couple of scrapes or bruises, the problem still remains" << '\n';
 	std::cout << "that you cannot open the lid or otherwise exit this ride. As panic sets in, you realize you" << '\n';
 	std::cout << "will not escape. Your screams and pleas are muffled first by the coffin itself, then the pit," << '\n';
 	std::cout << "the basement, the house, and finally the storm outside. No one hears you." << '\n';
@@ -271,7 +271,7 @@ void gameoveratticB1()
 	std::cout << "there is a blade at your throat. But that quick image is one of the last you see, before" << '\n';
 	std::cout << "your neck and chest feel hot with blood and you fall backwards onto the kitchen floor." << '\n';
 	std::cout << "The man quickly moves out of view. Shout or beg as you might, you pass out and shortly" << '\n';
-	std::cout << "expire on a dingy linoleum floor in a house you tresspassed in." << '\n';
+	std::cout << "expire on a dingy linoleum floor in a house you trespassed in." << '\n';
 	SysPause();
 	std::cout << '\n';
 	std::cout << "This is the end of the adventure for you." << '\n';
@@ -313,7 +313,7 @@ void gameoverentranceB1()
 
 	std::cout << "As you exit the house through the front door, the storm has not let up" << '\n';
 	std::cout << "in the time you spent in the house. In fact, it might have gotten worse" << '\n';
-	std::cout << "as you quickly lose your sense of direction in the harsh rain and miminal" << '\n';
+	std::cout << "as you quickly lose your sense of direction in the harsh rain and minimal" << '\n';
 	std::cout << "visibility. You should take solace, though, as the muddy embankment you slipped" << '\n';
 	std::cout << "down and injured yourself on was only about half a mile from the house and thus" << '\n';
 	std::cout << "your body was easily found by the search party." << '\n';
@@ -413,7 +413,7 @@ void gameoverkitchenA1()
 {
 	ClearScreen();
 
-	std::cout << "As you sit down to read the notes at the kitchen table, you find yourself mesmorized by what" << '\n';
+	std::cout << "As you sit down to read the notes at the kitchen table, you find yourself mesmerized by what" << '\n';
 	std::cout << "you are reading. The notes talk disjointedly about an attempted summoning of some kind of power," << '\n';
 	std::cout << "a recently dead body excavated from a potter's field, and even about a knife that is supposed" << '\n';
 	std::cout << "to be central to the whole process. As you read further down the stack of papers, it becomes" << '\n';
@@ -479,7 +479,7 @@ void gameoverbasementA1()
 	std::cout << "able to easily slip them out of the wall. Doing so reveals a small alcove, the contents of which" << '\n';
 	std::cout << "are dark and hard to discern. The space within the wall appears just large enough to step into." << '\n';
 	std::cout << "..." << '\n';
-	//std::cout << "..." << '\n';
+
 	SysPause();
 	std::cout << '\n';
 	std::cout << "After moving enough stones so that you can at least hunch your way into the space behind the wall," << '\n';
@@ -497,7 +497,7 @@ void gameoverbasementA1()
 	std::cout << "opening in the wall again, but as you start to double over, a darkness covers the opening. You see stones" << '\n';
 	std::cout << "pushed back into their original locations, and you hear the sound of metal scraping on rock, leaving a " << '\n';
 	std::cout << "sickening feeling in your stomach. You start to realize what's happening. And no matter how much you shout," << '\n';
-	std::cout << "you only hear the sound of masonwork from the other side of the wall. After a bit of time, even that stops," << '\n';
+	std::cout << "you only hear the sound of mason-work from the other side of the wall. After a bit of time, even that stops," << '\n';
 	std::cout << "and you're left with only silence. You're startled when a voice calls out, long after you thought it had left," << '\n';
 	std::cout << "with only one line spoken." << '\n';
 	std::cout << "..." << '\n';
@@ -601,7 +601,7 @@ void gameoverstudyA1()
 	std::cout << "..." << '\n';
 	SysPause();
 	std::cout << '\n'; 
-	std::cout << "As you continue to flip through the papers, it feels like they are crowding your periphrial vision," << '\n';
+	std::cout << "As you continue to flip through the papers, it feels like they are crowding your peripheral vision," << '\n';
 	std::cout << "the stack of notes that you set aside to read next growing higher and higher. But it's not just the" << '\n';
 	std::cout << "ones that you want to read, it seems like the layer of papers strewn about the room gets deeper" << '\n';
 	std::cout << "and deeper. You swear, not even mere minutes ago, you could have seen the stairs out the door from" << '\n';
@@ -657,7 +657,7 @@ void gameoveratticA1()
 
 	std::cout << "Sitting down at the desk, you lean in to get a better look at the shrine. The craftsmanship on the figurines" << '\n';
 	std::cout << "is certainly crude, but the work done on the carved box looks much more professional. The box is somewhat" << '\n';
-	std::cout << "oblong in shape, about six inches long, with an ornate design on the top side of it. The designwork looks" << '\n';
+	std::cout << "oblong in shape, about six inches long, with an ornate design on the top side of it. The design-work looks" << '\n';
 	std::cout << "indicative of an entombment motif with an elaborate central flame icon." << '\n';
 	std::cout << "..." << '\n';
 	SysPause();
@@ -681,7 +681,16 @@ void gameoveratticA1()
 	std::cout << '\n';
 	std::cout << "You realize the sound you heard was that of the door to the attic slamming shut. Looking behind you to" << '\n';
 	std::cout << "the source of the sound, you hear footsteps ascending. But that's a lesser worry, as, turning back around" << '\n';
-	//std::cout << "to the desk you find it is now on fire, "
+	std::cout << "to the desk you find it is now on fire, the figurines engulfed in the flames. Jumping up from the chair," << '\n';
+	std::cout << "the source of the footsteps has now arrived at the top of the stairs - an older gentleman, pointing at" << '\n';
+	std::cout << "the on-fire desk, and shouting that this is all your fault. And in a way, he's right. However, he does" << '\n';
+	std::cout << "nothing immediately to remedy the fire growing more and more out of control. Instead, he lunges at you" << '\n';
+	std::cout << "and grabs you by the shoulders, standing between you and the door. As much as you fight it, he forces you" << '\n';
+	std::cout << "backwards, causing you to lose your footing. The two of you tumble into the desk, pieces of which explode" << '\n';
+	std::cout << "around the room, sending lit fragments throughout the attic. The old wood of the house catches light" << '\n';
+	std::cout << "quickly, and the entire area is set ablaze. The man is either unaware or unconcerned with this new" << '\n';
+	std::cout << "development, as he holds you firmly to the floor as the room fills with smoke, shortly before you" << '\n';
+	std::cout << "lose consciousness." << '\n';
 	std::cout << '\n';
 	std::cout << '\n';
 	std::cout << "This is the end of the adventure for you." << '\n';

@@ -13,7 +13,7 @@ void roomStart()
 	std::cout << "| Field |" << '\n';
 	std::cout << " -------" << '\n';
 
-	std::cout << "Your hiking trip wasn't quite going as planned. First, you managed to get lost just finding the trailhead, then" << '\n';
+	std::cout << "Your hiking trip wasn't quite going as planned. First, you managed to get lost just finding the trail head, then" << '\n';
 	std::cout << "it seemed like the path was never properly maintained, causing you to have to maneuver through tall underbrush." << '\n';
 	std::cout << "Even after all the issues just hiking the trail, you weren't expecting the storm to come in so quickly. As the " << '\n';
 	std::cout << "dark clouds rolled in, visibility dropped quickly and in short time you had wandered off the trail proper. It wasn't" << '\n';

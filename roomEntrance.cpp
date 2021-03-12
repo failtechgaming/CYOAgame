@@ -60,9 +60,9 @@ void roomEntranceA1()
 	// text for the room/encounter goes here
 
 		//room name
-	std::cout << " ---------- " << '\n';
+	std::cout << " --------------- " << '\n';
 	std::cout << "| Front of House |" << '\n';
-	std::cout << " ----------" << '\n';
+	std::cout << " ---------------" << '\n';
 	std::cout << '\n';
 
 	std::cout << "You walk through the storm to the front of the house, standing on the barren porch. The shutters" << '\n';
@@ -75,7 +75,7 @@ void roomEntranceA1()
 	std::cout << '\n';
 	std::cout << "Opening the door and letting yourself in, you walk into the grand entryway of the house, where you" << '\n';
 	std::cout << "would be able to move to most rooms easily, in addition to the large set of stairs ascending to the" << '\n';
-	std::cout << "second floor. In the entryway, there is only a coatrack heavy with old coats. The light that you saw" << '\n';
+	std::cout << "second floor. In the entryway, there is only a coat rack heavy with old coats. The light that you saw" << '\n';
 	std::cout << "through the window shutters appears to have come from the room through the door to your right." << '\n';
 	
 
@@ -154,7 +154,7 @@ void roomEntranceB1()
 	std::cout << " ----------" << '\n';
 
 	std::cout << "The small but inviting entryway of the house leads to multiple rooms along with massive double doors as the main entrance. " << '\n';
-	std::cout << "There is a coatrack in the corner, and a set of stairs leading up. Aside from a few tasteful lamps, the room is empty." << '\n';
+	std::cout << "There is a coat rack in the corner, and a set of stairs leading up. Aside from a few tasteful lamps, the room is empty." << '\n';
 	
 tryAgain:
 	std::cout << '\n';
@@ -179,23 +179,23 @@ tryAgain:
 		break;
 	case '2':
 		std::cout << '\n';
-		std::cout << "Rifling through the coats on the rack, you find old recipts from decades past," << '\n';
+		std::cout << "Rifling through the coats on the rack, you find old receipts from decades past," << '\n';
 		std::cout << "notes in multiple different styles of handwriting, and even an old breath mint" << '\n';
 		std::cout << "or two. However, as you go to replace one of the coats onto the rack, you hear" << '\n';
-		std::cout << "a small metalic clink on the floor at your feet. The coat you just held up," << '\n';
+		std::cout << "a small metallic clink on the floor at your feet. The coat you just held up," << '\n';
 		std::cout << "you now see, has a hole on the bottom hem, and you trace a straight line into" << '\n';
 		std::cout << "one of the pockets which has a similarly sized hole in it. The author of those notes," << '\n';
-		std::cout << "you realize, was paranoid due only to faulty stitchwork. Setting aside the coat," << '\n';
+		std::cout << "you realize, was paranoid due only to faulty stitch-work. Setting aside the coat," << '\n';
 		std::cout << "the key you pick up off the floor was a rounded handle with an image of a bird in a circle," << '\n';
 		std::cout << "worn down from years of use. You pocket this key, making sure your own pocket is not" << '\n';
-		std::cout << "inclinded to turn on you the same way the coat did on its owner." << '\n';
+		std::cout << "inclined to turn on you the same way the coat did on its owner." << '\n';
 		std::cout << "..." << '\n';
 		SysPause();
 		std::cout << '\n';
 		std::cout << "Remembering the note about the library on the second floor, you quickly replace all" << '\n';
 		std::cout << "the coats you rummaged through, and ascend the grand stairs that take up the majority" << '\n';
 		std::cout << "of the house entrance. The stairs are elaborate, hand-crafted wood with ornamental" << '\n';
-		std::cout << "bannisters and well-worn steps. The first floor newel post finial is carved in the" << '\n';
+		std::cout << "banisters and well-worn steps. The first floor newel post finial is carved in the" << '\n';
 		std::cout << "likeness of a bird, while the second floor finial appears to be a celestial body." << '\n';
 		std::cout << "..." << '\n';
 		SysPause();
